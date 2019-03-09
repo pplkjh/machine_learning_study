@@ -3,7 +3,8 @@
 #데이터 수집
 import pandas as pd
 
-df = pd.read_csv("..\git\machine_learning_study")
+df = pd.read_csv("../git/machine_learning_study/basketball_stat.csv")
 #수집된 데이터 샘플을 확인
 df.head()
+
 
